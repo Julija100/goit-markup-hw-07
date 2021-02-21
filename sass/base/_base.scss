@@ -21,8 +21,11 @@ ol {
 img {
   display: block;
 }
-button:focus {
-  outline: none;
+button {
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
 }
 textarea {
   resize: none;
@@ -37,11 +40,4 @@ textarea {
 
 .address {
   font-style: normal;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
 }
