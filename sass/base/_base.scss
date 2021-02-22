@@ -23,12 +23,18 @@ img {
 }
 button {
   cursor: pointer;
+
   &:focus {
     outline: none;
   }
 }
 textarea {
   resize: none;
+}
+a {
+  &:focus {
+    outline: none;
+  }
 }
 .list {
   list-style: none;
